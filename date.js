@@ -27,7 +27,8 @@
  * Hint2: In the United States, the week officially starts on Sunday and ends on Saturday.
  * That is how they are indexed.
  * 
- * If you are stumped, google it! This is a problem that has been solved many times over.
+ * Make an array of the name of the days of the week and index into it.
+ * 
  */
 function getDayOfTheWeek(date) {
     // Your Code Here!
@@ -152,7 +153,7 @@ function getDaysAgoString(date) {
     console.log("-----Tests for getFormattedDate-----");
 
     {
-        let date = new Date("Sun Apr 05 2020 13:40:31 GMT-0700 (Pacific Daylight Time)");
+        let date = new Date(2020, 4, 5, 13, 40, 31);
         console.log("* Can get pm");
         let result = getFormattedDate(date);
         console.log(result)
